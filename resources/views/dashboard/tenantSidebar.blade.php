@@ -1,0 +1,2 @@
+<li class="menu-header"><span> Main Menu</span></li>
+<li class="nav-item{{ request()->is('tenant/invoices') ? ' active' : '' }}"><a href="{{ url('/tenant/invoices') }}"><i class="fas fa-file-invoice-dollar"></i><span>Invoices</span></a></li>
